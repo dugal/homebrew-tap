@@ -2,16 +2,16 @@
 
 class VeraUnison < Formula
   desc "VeraCrypt container create, mount, sync, and unmount scripts"
-  homepage "https://github.com/dugal/homebrew-tap"
-  url "https://github.com/dugal/vera_unison/releases/download/v2.1.0/vera-unison-v2.1.0.tar.gz"
-  sha256 "41faf9f9f5f561162e4f91b4aadc6bd89f15260da9e0815ec7a627df19d41161"
+  homepage "https://github.com/dougtech/homebrew-tap"
+  url "https://github.com/dugal/vera_unison/releases/download/v2.1.1/vera-unison-v2.1.1.tar.gz"
+  sha256 "90c2556c489b00f4ecee68b44681ac291b6277833b62ea094ba201396a225a58"
   license "MIT"
 
   depends_on "unison"
   # veracrypt is a cask: brew install --cask veracrypt
 
   def install
-    # `vera` dispatcher + vera-* compatibility shims on PATH;
+    # VU-045 layout: `vera` dispatcher + vera-* compatibility shims on PATH;
     # the six inlined implementation scripts live in libexec/ and are exec'd
     # by the dispatcher (bin/../libexec resolution).
     bin.install "vera"
