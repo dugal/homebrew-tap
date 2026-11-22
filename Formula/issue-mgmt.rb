@@ -3,9 +3,9 @@
 class IssueMgmt < Formula
   desc "File-based issue tracking CLI and Claude Code skill bundle"
   homepage "https://github.com/dougtech/homebrew-tap"
-  url "https://github.com/dugal/issue-mgmt/releases/download/v3.6.1/issue-mgmt-v3.6.1.tar.gz"
-  sha256 "20dc64e3fae84e309cb97e3a1d610d1b7cdddecf16ab7ad749b74f1e88147e74"
-  version "3.6.1"
+  url "https://github.com/dugal/issue-mgmt/releases/download/v3.6.2/issue-mgmt-v3.6.2.tar.gz"
+  sha256 "26836c01adaaa97447289280d7414ffb552586c47d33cc8bfd651bb4fb97ff84"
+  version "3.6.2"
   license "MIT"
 
   depends_on "python3"
